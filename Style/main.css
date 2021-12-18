@@ -22,6 +22,157 @@
   font-display: swap;
 }
 
+.section-1 {
+  height: 100vh;
+  background-color: #012F3C;
+  padding: 30px 200px;
+}
+
+.section-1 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: none;
+}
+
+.section-1 header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+
+.section-1 header nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+  font-size: 16px;
+}
+
+.section-1 header nav a:hover {
+  color: #13AE92;
+}
+
+.section-1 header nav .btn:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #13AE92;
+}
+
+.section-1 main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: none;
+}
+
+.section-1 main .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  -webkit-box-align: none;
+      -ms-flex-align: none;
+          align-items: none;
+  gap: 15px;
+}
+
+.section-1 main .left .btn {
+  width: 137px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.section-1 main .left .btn:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #13AE92;
+  width: 138px;
+}
+
+.section-1 main .left p {
+  font-weight: 400;
+  color: #13AE92;
+}
+
+.section-1 main .left h1 {
+  font-size: 50px;
+  color: white;
+  line-height: 60px;
+}
+
+.section-1 main .right .smart-watch {
+  position: relative;
+  top: 30px;
+  left: 180px;
+  width: 250px;
+  height: 450px;
+  z-index: 1;
+}
+
+.section-1 main .right .line {
+  position: absolute;
+  left: 610px;
+  top: 200px;
+}
+
+.section-1 main .right .circle {
+  position: relative;
+  top: 80px;
+  right: -200px;
+  z-index: 1;
+}
+
+.section-1 main .right .kub {
+  position: relative;
+  top: 10px;
+  left: -400px;
+  z-index: 1;
+}
+
+.section-1 main .line2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
