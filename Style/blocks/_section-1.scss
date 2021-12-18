@@ -30,7 +30,7 @@
 
     main{
         @include display(flex, row, space-between, center, none);
-        padding: 25px 0;
+        padding: 10px 0;
 
         .left{
             @include display(flex, column, none, none, 15px);
