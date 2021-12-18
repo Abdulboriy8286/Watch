@@ -19,12 +19,6 @@
                     color: $BtnColor;
                 }
             }
-
-            .btn:hover{
-                background-color: transparent;
-                color: white;
-                border: 1px solid $BtnColor;
-            }
         }
     }
 
@@ -38,13 +32,6 @@
                 width: 137px;
                 text-decoration: none;
                 z-index: 1;
-    
-                &:hover{
-                    background-color: transparent;
-                    color: white;
-                    border: 1px solid $BtnColor;
-                    width: 138px;
-                }
             }
 
             p{
