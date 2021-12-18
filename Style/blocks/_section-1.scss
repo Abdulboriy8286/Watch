@@ -1,0 +1,101 @@
+.section-1{
+    height: 100vh;
+    background-color: $BgColor;
+    padding: 30px 200px;
+
+    header{
+        @include display(flex, row, space-between, center, none);
+
+        nav{
+            @include display(flex, row, none, center, 40px);
+
+            a{
+                text-decoration: none;
+                font-weight: 500;
+                color: white;
+                font-size: 16px;
+
+                &:hover{
+                    color: $BtnColor;
+                }
+            }
+
+            .btn:hover{
+                background-color: transparent;
+                color: white;
+                border: 1px solid $BtnColor;
+            }
+        }
+    }
+
+    main{
+        @include display(flex, row, none, center, none);
+
+        .left{
+            @include display(flex, column, none, none, 15px);
+
+            .btn{
+                width: 137px;
+                text-decoration: none;
+                z-index: 1;
+    
+                &:hover{
+                    background-color: transparent;
+                    color: white;
+                    border: 1px solid $BtnColor;
+                    width: 138px;
+                }
+            }
+
+            p{
+                font-weight: 400;
+                color: $BtnColor;
+            }
+
+            h1{
+                font-size: 50px;
+                color: white;
+                line-height: 60px;
+            }
+        }
+
+        .right{
+
+            .smart-watch{
+                position: relative;
+                top: 30px;
+                left: 180px;
+                width: 250px;
+                height: 450px;
+                z-index: 1;
+            }
+
+            .line{
+                position: absolute;
+                left: 610px;
+                top: 200px;
+            }
+
+            .circle{
+                position: relative;
+                top: 80px;
+                right: -200px;
+                z-index: 1;
+            }
+
+            .kub{
+                position: relative;
+                top: 10px;
+                left: -400px;
+                z-index: 1;
+            }
+        }
+
+        .line2{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+    }
+}
