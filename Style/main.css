@@ -22,6 +22,40 @@
   font-display: swap;
 }
 
+.section-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0px;
+}
+
+.section-2 .left h3 {
+  font-weight: 500px;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+  opacity: 1;
+  margin: 35px 0 15px;
+}
+
+.section-2 .left p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 1;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +65,10 @@
 
 body {
   font-family: 'Poppins';
+}
+
+body section {
+  padding: 0 200px;
 }
 
 .btn {

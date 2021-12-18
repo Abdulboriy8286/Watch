@@ -1,0 +1,15 @@
+.section-2 {
+    @include display($justify-content: space-between);
+
+    .left {
+
+        h3 {
+            @include feature($font-size: 22px, $line-height: 33px, $font-weight: 500px);
+            margin: 35px 0 15px;
+        }
+
+        p {
+            @include feature($font-size: 14px, $line-height: 22px);
+        }
+    }
+}
