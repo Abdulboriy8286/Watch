@@ -94,7 +94,6 @@
       -ms-flex-align: center;
           align-items: center;
   gap: none;
-  padding: 10px 0;
 }
 
 .section-1 main .left {
@@ -163,7 +162,7 @@
 .section-1 main .right .kub {
   position: relative;
   top: 10px;
-  left: -400px;
+  left: -350px;
   z-index: 1;
 }
 

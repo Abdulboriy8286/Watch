@@ -30,7 +30,6 @@
 
     main{
         @include display(flex, row, space-between, center, none);
-        padding: 10px 0;
 
         .left{
             @include display(flex, column, none, none, 15px);
@@ -87,7 +86,7 @@
             .kub{
                 position: relative;
                 top: 10px;
-                left: -400px;
+                left: -350px;
                 z-index: 1;
             }
         }
