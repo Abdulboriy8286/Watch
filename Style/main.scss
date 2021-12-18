@@ -26,4 +26,9 @@ body {
     color: $PrimaryWhite;
     padding: 11px 28px;
     border: none;
+    cursor: pointer;
+
+        &:hover {
+            background-color: $BgColor;
+        }
 }
