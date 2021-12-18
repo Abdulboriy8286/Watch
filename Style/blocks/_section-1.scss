@@ -29,7 +29,8 @@
     }
 
     main{
-        @include display(flex, row, none, center, none);
+        @include display(flex, row, space-between, center, none);
+        padding: 25px 0;
 
         .left{
             @include display(flex, column, none, none, 15px);
@@ -79,7 +80,7 @@
             .circle{
                 position: relative;
                 top: 80px;
-                right: -200px;
+                right: -280px;
                 z-index: 1;
             }
 

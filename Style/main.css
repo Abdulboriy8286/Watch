@@ -87,13 +87,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: none;
-      -ms-flex-pack: none;
-          justify-content: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   gap: none;
+  padding: 25px 0;
 }
 
 .section-1 main .left {
@@ -155,7 +156,7 @@
 .section-1 main .right .circle {
   position: relative;
   top: 80px;
-  right: -200px;
+  right: -280px;
   z-index: 1;
 }
 
