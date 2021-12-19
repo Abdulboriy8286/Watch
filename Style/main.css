@@ -397,6 +397,10 @@ p .section-4 .container-1 .info:first-child {
   margin-left: 15px;
 }
 
+.section-5 .img-div > img {
+  cursor: pointer;
+}
+
 footer {
   padding: 58px 200px 37px 200px;
   width: 100%;
@@ -468,6 +472,10 @@ footer .footer-div .icons {
           align-items: center;
   gap: 25px;
   opacity: 0.7;
+}
+
+footer .footer-div .icons img {
+  cursor: pointer;
 }
 
 footer p {
