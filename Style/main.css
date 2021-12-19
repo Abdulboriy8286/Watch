@@ -319,6 +319,7 @@ p .section-4 .container-1 .info:first-child {
 }
 
 .section-4 .container-2 {
+  position: relative;
   padding: 0 200px;
   height: 572px;
   width: 100%;
@@ -344,6 +345,7 @@ p .section-4 .container-1 .info:first-child {
 }
 
 .section-5 {
+  overflow: visible;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
