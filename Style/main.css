@@ -26,6 +26,7 @@
   height: 100vh;
   background-color: #012F3C;
   padding: 30px 200px;
+  overflow-y: hidden;
 }
 
 .section-1 header {
