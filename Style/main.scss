@@ -19,21 +19,25 @@ body {
 
     section {
         padding: 0 200px;
+        overflow-x: hidden;
     }
 }
 
 .btn {
+    @include feature($font-size: 16px, $line-height: 26px, $color: $PrimaryWhite, $font-weight: 500);
     background-color: $BtnColor;
     color: $PrimaryWhite;
     padding: 11px 28px;
-    border: none;
-
+    border: 1px solid transparent;
     text-decoration: none;
 
     cursor: pointer;
 
         &:hover {
-            background-color: $BgColor;
+            box-sizing: border-box;
+            color: $BtnColor;
+            border: 1px solid $BtnColor;
+            background-color: transparent
         }
 
 }

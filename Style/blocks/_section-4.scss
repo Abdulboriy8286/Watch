@@ -1,5 +1,6 @@
 .section-4 {
     width: 100%;
+    padding: 0 0;
     
 
     .first-p {
@@ -20,7 +21,6 @@
     }
 
     .container-1 {
-
         height: 572px;
         width: 100%;
         background-image: url(/Assets/images/bgimg.jpg);
@@ -64,6 +64,7 @@
     }   
 
     .container-2 {
+        padding: 0 200px;
         height: 572px;
         width: 100%;
         @include display($justify-content: space-between);

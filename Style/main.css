@@ -108,7 +108,7 @@
 }
 
 .section-1 main .left .btn {
-  width: 137px;
+  width: 140px;
   text-decoration: none;
   z-index: 1;
 }
@@ -234,11 +234,6 @@
 
 .section-2 .right .btn {
   display: inline-block;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  color: #ffffff;
-  opacity: 1;
 }
 
 .section-2 .right h2 {
@@ -251,6 +246,7 @@
 
 .section-4 {
   width: 100%;
+  padding: 0 0;
 }
 
 .section-4 .first-p {
@@ -323,6 +319,7 @@ p .section-4 .container-1 .info:first-child {
 }
 
 .section-4 .container-2 {
+  padding: 0 200px;
   height: 572px;
   width: 100%;
   display: -webkit-box;
@@ -526,18 +523,28 @@ body {
 
 body section {
   padding: 0 200px;
+  overflow-x: hidden;
 }
 
 .btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  opacity: 1;
   background-color: #13AE92;
   color: #ffffff;
   padding: 11px 28px;
-  border: none;
+  border: 1px solid transparent;
   text-decoration: none;
   cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #012F3C;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #13AE92;
+  border: 1px solid #13AE92;
+  background-color: transparent;
 }
 /*# sourceMappingURL=main.css.map */
